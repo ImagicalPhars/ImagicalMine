@@ -5,31 +5,6 @@
  * @package default
  */
 
-
-/*
- *
- *  _                       _           _ __  __ _
- * (_)                     (_)         | |  \/  (_)
- *  _ _ __ ___   __ _  __ _ _  ___ __ _| | \  / |_ _ __   ___
- * | | '_ ` _ \ / _` |/ _` | |/ __/ _` | | |\/| | | '_ \ / _ \
- * | | | | | | | (_| | (_| | | (_| (_| | | |  | | | | | |  __/
- * |_|_| |_| |_|\__,_|\__, |_|\___\__,_|_|_|  |_|_|_| |_|\___|
- *                     __/ |
- *                    |___/
- *
- * This program is a third party build by ImagicalMine.
- *
- * PocketMine is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * @author ImagicalMine Team
- * @link http://forums.imagicalmine.net/
- *
- *
-*/
-
 namespace {
 
 
@@ -95,11 +70,11 @@ namespace pocketmine {
     use pocketmine\utils\Utils;
     use pocketmine\wizard\Installer;
 
-    const VERSION = "1.4";
+    const VERSION = "1.5";
     const API_VERSION = "2.0.0";//API version.(plugin api version)
-    const CODENAME = "ELITE";
-    const MINECRAFT_VERSION = "v0.14.x alpha";
-    const MINECRAFT_VERSION_NETWORK = "0.14.3";
+    const CODENAME = "REACTIVATED";
+    const MINECRAFT_VERSION = "v0.15.x alpha";
+    const MINECRAFT_VERSION_NETWORK = "0.15.0";
 
     /*
      * Startup code. Do not look at it, it may harm you.
