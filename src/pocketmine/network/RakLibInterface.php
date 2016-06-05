@@ -5,31 +5,6 @@
  * @package default
  */
 
-
-/*
- *
- *  _                       _           _ __  __ _
- * (_)                     (_)         | |  \/  (_)
- *  _ _ __ ___   __ _  __ _ _  ___ __ _| | \  / |_ _ __   ___
- * | | '_ ` _ \ / _` |/ _` | |/ __/ _` | | |\/| | | '_ \ / _ \
- * | | | | | | | (_| | (_| | | (_| (_| | | |  | | | | | |  __/
- * |_|_| |_| |_|\__,_|\__, |_|\___\__,_|_|_|  |_|_|_| |_|\___|
- *                     __/ |
- *                    |___/
- *
- * This program is a third party build by ImagicalMine.
- *
- * PocketMine is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * @author ImagicalMine Team
- * @link http://forums.imagicalcorp.ml/
- *
- *
-*/
-
 namespace pocketmine\network;
 
 use pocketmine\event\player\PlayerCreationEvent;
@@ -46,6 +21,8 @@ use raklib\server\ServerInstance;
 
 class RakLibInterface implements ServerInstance, AdvancedSourceInterface
 {
+
+	const MAGIC_BYTE = "\xfe";
 
     /** @var Server */
     private $server;
@@ -331,7 +308,7 @@ class RakLibInterface implements ServerInstance, AdvancedSourceInterface
                     $packet->__encapsulatedPacket->identifierACK = null;
                     //@todo backwart compatible - on 0.13 was
                     //$packet->__encapsulatedPacket->buffer = $packet->buffer;
-                    $packet->__encapsulatedPacket->buffer = chr(0x8e) . $packet->buffer;
+                    $packet->__encapsulatedPacket->buffer = self::MAGIC_BYTE . $packet->buffer;
                     if ($packet->getChannel() !== 0) {
                         $packet->__encapsulatedPacket->reliability = 3;
                         $packet->__encapsulatedPacket->orderChannel = $packet->getChannel();
@@ -356,7 +333,7 @@ class RakLibInterface implements ServerInstance, AdvancedSourceInterface
                 $pk = new EncapsulatedPacket();
                 //@todo backwart compatible - on 0.13 was
                 //$pk->buffer = $packet->buffer;
-                $pk->buffer = chr(0x8e) . $packet->buffer;
+                $pk->buffer = self::MAGIC_BYTE . $packet->buffer;
                 if ($packet->getChannel() !== 0) {
                     $packet->reliability = 3;
                     $packet->orderChannel = $packet->getChannel();
