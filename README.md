@@ -1,7 +1,27 @@
 # ![ImagicalMine](http://i.imgur.com/6Hlm8mn.gif)
 
 [![Travis Build](https://travis-ci.org/Inactive-to-Reactive/ImagicalMine.svg)](https://travis-ci.org/Inactive-to-Reactive/ImagicalMine)
+* __[Download Latest Phar File](Inactive-to-Reactive.github.io/ImagicalMine/service-download/ImagicalMine.phar)__
+## Demo Server
 
+Below is the ImagicalMine demo server details, you can see what features ImagicalMine has before downloading it.<br>
+**TO BE CHOSEN SOON**
+
+## Installation
+
+**Self-installation:**<br>
+NO DOCUMENTATION AVAILABLE YET.<br>
+Supported platforms: Linux, Windows, OS X, Raspberry Pi, and ODROID
+
+## Resources
+
+**Guides**
+* __[Contributing Guidelines](https://github.com/Inactive-to-Reactive/ImagicalMine/blob/master//.github/CONTRIBUTING.md)__
+
+**External Links**
+* __[Homepage DEV]()__
+* __[Forums DEV]()__
+* __[Plugin Repository](http://forums.imagicalmine.net/plugins)__
 
 ## Acknowledgements
 
@@ -13,56 +33,3 @@
 - The hunger system is from Katana, but most of them was rewritten by @thebigsmileXD.
 - The redstone system was written by @aodzip.
 - The potion class was written by @thebigsmileXD.
-- The website was written by @0-Eclipse-0.
-
-## Demo Server
-
-Below is the ImagicalMine demo server details, you can see what features ImagicalMine has before downloading it.<br>
-**IP: play.imagicalmine.net**<br>
-**Port: 19134**
-
-## Installation
-
-**Self-installation:**<br>
-Documentation for installing ImagicalMine is available [here](https://github.com/ImagicalMine/ImagicalMine/wiki/Installation).<br>
-Supported platforms: Linux, Windows, OS X, Raspberry Pi, and ODROID
-
-**Installation on a Hosting Company:**<br>
-You need to request the hosting company you're using to add in ImagicalMine as a server JAR/PHAR. If they don't respond, or don't add it, then you can try the MCPE hosting providers listed as below that support ImagicalMine as a version for their customers to download.
-
-* __[HostMyServers](https://hostmyservers.com)__
-* __[Host-MCPE](http://host-mcpe.us)__
-* __[MinersPlanet](http://minersplanet.com)__
-* __[HK-Hosting GbR](https://hk-hosting.de)__
-* __[Virtual Gladiators](http://virtualgladiators.com)__
-* __[NetherBox](https://netherbox.com/?promo=IMAGICAL)__
-* __[ExtraVM](https://www.extravm.com/minecraft.html)__
-* __[24serv.pro](https://24serv.pro)__ 
-* __[ServerWays Hosting](https://serverwayshosting.com)__
-
-## Resources
-
-**Guides**
-* __[Documentation](https://github.com/ImagicalCorp/ImagicalMine/wiki)__
-* __[API Documentation](https://github.com/ImagicalCorp/ImagicalMine/wiki/Plugins)__
-* __[Contributing Guidelines](https://github.com/ImagicalCorp/ImagicalMine/blob/master//.github/CONTRIBUTING.md)__
-
-**External Links**
-* __[Homepage](http://imagicalmine.net/)__
-* __[Forums](http://forums.imagicalmine.net/)__
-* __[Gitter chat](https://gitter.im/ImagicalCorp/ImagicalMine)__
-* __[Plugin Repository](http://forums.imagicalmine.net/plugins)__
-* __[Official Twitter Account](https://twitter.com/ImagicalCorp)__
-
-## Third-party libraries and protocols used
-
-* __[PHP Sockets](http://php.net/manual/en/book.sockets.php)__
-* __[PHP SQLite3](http://php.net/manual/en/book.sqlite3.php)__
-* __[PHP BCMath](http://php.net/manual/en/book.bc.php)__
-* __[PHP pthreads](http://pthreads.org/)__ by _[krakjoe](https://github.com/krakjoe)_: Threading for PHP - Share Nothing, Do Everything.
-* __[PHP YAML](https://code.google.com/p/php-yaml/)__ by _Bryan Davis_: The Yaml PHP Extension provides a wrapper to the LibYAML library.
-* __[LibYAML](http://pyyaml.org/wiki/LibYAML)__ by _Kirill Simonov_: A YAML 1.1 parser and emitter written in C.
-* __[cURL](http://curl.haxx.se/)__: cURL is a command line tool for transferring data with URL syntax
-* __[Zlib](http://www.zlib.net/)__: A Massively Spiffy Yet Delicately Unobtrusive Compression Library
-* __[Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)__
-* __[UT3 Query Protocol](http://wiki.unrealadmin.org/UT3_query_protocol)__
