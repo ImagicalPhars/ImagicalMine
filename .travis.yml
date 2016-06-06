@@ -22,12 +22,12 @@ script:
 # UPLOADING TO RELEASES WEBSITE
 after_success:
 - cd /home/travis/build
-- git config --global user.email "web.articlerequests@gmail.com"
-- git config --global user.name "remotevase"
+- git config --global user.email "remotevase@gmail.com"
+- git config --global user.name "ImagicalPhars"
 - mv Inactive-to-Reactive remotevase
 - git clone --branch=gh-pages https://github.com/Inactive-to-Reactive/ImagicalMine
-- cp /home/travis/build/remotevase/ImagicalMine/plugins/DevTools//ImagicalMine_1.5.phar /home/travis/build/ImagicalMine/ImagicalMine-$TRAVIS_JOB_ID.phar
-- cp /home/travis/build/remotevase/ImagicalMine/plugins/DevTools//ImagicalMine_1.5.phar /home/travis/build/ImagicalMine/service-download/ImagicalMine.phar
+- cp /home/travis/build/ImagicalPhars/ImagicalMine/plugins/DevTools//ImagicalMine_1.5.phar /home/travis/build/ImagicalMine/ImagicalMine-$TRAVIS_JOB_ID.phar
+- cp /home/travis/build/ImagicalPhars/ImagicalMine/plugins/DevTools//ImagicalMine_1.5.phar /home/travis/build/ImagicalMine/service-download/ImagicalMine.phar
 - cd ImagicalMine
 - git add ImagicalMine-$TRAVIS_JOB_ID.phar
 - git add service-download/ImagicalMine.phar
@@ -35,4 +35,4 @@ after_success:
 - echo >> list.txt
 - echo "This is a directory listing of the root directory of the release download website. Copy the file name and paste it in the URL bar after deleting \"list.txt\". You can also alternatively download files using a shell script by downloading the file from http://inactive-to-reactive.github.io/ImagicalMine/service-download/ImagicalMine.phar. The latest phar built is located at $DOWNLOAD_URI" >> list.txt
 - git commit -am "Added latest successful phar build"
-- git push https://remotevase/GITHUB_API_KEY@github.com/Inactive-to-Reactive/ImagicalMine gh-pages &>secret
+- git push https://ImagicalPhars/GITHUB_API_KEY@github.com/Inactive-to-Reactive/ImagicalMine gh-pages &>secret
