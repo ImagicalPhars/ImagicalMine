@@ -2,6 +2,7 @@
 
 [![Travis Build](https://travis-ci.org/Inactive-to-Reactive/ImagicalMine.svg)](https://travis-ci.org/Inactive-to-Reactive/ImagicalMine)
 * __[Download Latest Phar File](Inactive-to-Reactive.github.io/ImagicalMine/service-download/ImagicalMine.phar)__
+<br>
 ## Demo Server
 
 Below is the ImagicalMine demo server details, you can see what features ImagicalMine has before downloading it.<br>
