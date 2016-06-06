@@ -1,8 +1,16 @@
 # ![ImagicalMine](https://raw.githubusercontent.com/Inactive-to-Reactive/ImagicalMine/master/extra/ImagicalMine.png)
 
 [![Travis Build](https://travis-ci.org/Inactive-to-Reactive/ImagicalMine.svg)](https://travis-ci.org/Inactive-to-Reactive/ImagicalMine)
-* __[Download Latest Phar File](Inactive-to-Reactive.github.io/ImagicalMine/service-download/ImagicalMine.phar)__
+ __[Download Latest Phar File](Inactive-to-Reactive.github.io/ImagicalMine/service-download/ImagicalMine.phar)__
 <br>
+
+## Quick Links (Instead of scrolling, click these!)
+
+__[Demo Server](https://github.com/Inactive-to-Reactive/ImagicalMine/blob/master/README.md#demo-server)__ <br>
+__[Installation](https://github.com/Inactive-to-Reactive/ImagicalMine/blob/master/README.md#installation)__ <br>
+__[Resources](https://github.com/Inactive-to-Reactive/ImagicalMine/blob/master/README.md#resources)__ <br>
+__[Acknowledgements](https://github.com/Inactive-to-Reactive/ImagicalMine/blob/master/README.md#acknowledgements)__ <br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Demo Server
 
